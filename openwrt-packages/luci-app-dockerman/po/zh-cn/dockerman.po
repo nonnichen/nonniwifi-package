@@ -306,7 +306,7 @@ msgstr "Docker - 概览"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/volumes.lua:69
 msgid "Docker - Volumes"
-msgstr "Docker - 存储卷"
+msgstr "Docker - 存储"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:16
 msgid "Docker Daemon settings"
@@ -992,7 +992,7 @@ msgstr "VEPA（虚拟以太网端口聚合器）"
 #: applications/luci-app-dockerman/luasrc/controller/dockerman.lua:41
 #: applications/luci-app-dockerman/luasrc/view/dockerman/overview.htm:187
 msgid "Volumes"
-msgstr "存储卷"
+msgstr "存储"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/volumes.lua:73
 msgid "Volumes overview"

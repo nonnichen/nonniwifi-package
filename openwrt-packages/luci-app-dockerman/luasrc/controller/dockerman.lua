@@ -11,7 +11,7 @@ module("luci.controller.dockerman",package.seeall)
 function index()
 	entry({"admin", "docker"},
 		firstchild(),
-		_("Docker"),
+		_("DOCKER"),
 		40).acl_depends = { "luci-app-dockerman" }
 
 	entry({"admin", "docker", "config"},cbi("dockerman/configuration"),_("Configuration"), 8).leaf=true

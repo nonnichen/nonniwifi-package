@@ -4,10 +4,10 @@ XHR.poll(3, '<%=url([[admin]], [[services]], [[shadowsocksr]], [[run]])%>', null
 		var tb = document.getElementById('shadowsocksr_status');
 		if (data && tb) {
 			if (data.running) {
-				var links = '<em><b style=color:green>ShadowsocksR Plus+ <%:RUNNING%></b></em>';
+				var links = '<em><b style=color:green>科学上网 <%:RUNNING%></b></em>';
 				tb.innerHTML = links;
 			} else {
-				tb.innerHTML = '<em><b style=color:red>ShadowsocksR Plus+ <%:NOT RUNNING%></b></em>';
+				tb.innerHTML = '<em><b style=color:red>科学上网 <%:NOT RUNNING%></b></em>';
 			}
 		}
 	}

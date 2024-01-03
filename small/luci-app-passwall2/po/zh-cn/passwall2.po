@@ -1,5 +1,5 @@
 msgid "PassWall 2"
-msgstr "PassWall 2"
+msgstr "新司机"
 
 msgid "Auto"
 msgstr "自动"

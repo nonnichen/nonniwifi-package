@@ -6,7 +6,7 @@ function index()
 	if not nixio.fs.access("/etc/config/bypass") then
 		return
 	end
-	local e=entry({"admin","services","bypass"},firstchild(),_("Bypass"),2)
+	local e=entry({"admin","services","bypass"},firstchild(),_("魔法上网"),2)
 	e.dependent=false
 	e.acl_depends={ "luci-app-bypass" }
 	entry({"admin","services","bypass","base"},cbi("bypass/base"),_("Base Setting"),1).leaf=true
