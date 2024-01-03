@@ -1,7 +1,7 @@
 # nonniwifi-package
 
 <div align="center">
-<h1 align="center">nonniwifi-package</h1>
+<h1 align="center">🌈 春风骀荡 🌸蓦然吹去</h1>
 
 <img src="https://img.shields.io/github/languages/code-size/nonnichen/nonniwifi-package?color=blueviolet">
 </div>
