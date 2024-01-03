@@ -36,7 +36,7 @@ make menuconfig
 | luci-app-gost                | https proxy      | 隐蔽的https代理   |
 | luci-app-adguardhome         | Block adg          |  AdG去广告      |
 | luci-app-smartdns            | smartdns dns pollution prevention     |  smartdns DNS防污染       |
-| luci-app-passwall            | passwall proxy      | passwall代理软件        |
+| luci-app-passwall            | passwall ​​proxy      | passwall代理软件        |
 | luci-theme-argone            | argone theme           | 修改老竭力主题名     |
 | luci-app-argone-config       | argone theme settings            |  argone主题设置      |
 | luci-app-ssr-plus            | ssr-plus ​​proxy              | ssr-plus 代理软件       |
