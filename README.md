@@ -8,9 +8,9 @@
 
 * OpenWRT Packages
  
-* 把网上的一些 openwrt packages 仓库依赖合并归类，方便下载编译
+* 搜集一些网上大家常用的 openwrt packages 仓库依赖合并归类，方便自己下载编译
 
-* 不定期同步网络更新
+* 不定期同步网络上的更新
 
 #### 使用
 
@@ -23,7 +23,7 @@ make menuconfig
 
 #### 说明
 
-| 软件名                       | 说明                   | 中文说明    |
+| 软件名                       | 说明                   | 中文介绍    |
 | -----------------------------|------------------------| ------------|
 | luci-app-alist               |  file list program   | 支持多存储的文件列表程序   |
 | luci-app-dnsfilter           | dns ad filtering            | 基于DNS的广告过滤        |
