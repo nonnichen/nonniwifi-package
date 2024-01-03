@@ -39,7 +39,7 @@ make menuconfig
 | luci-app-passwall            | passwall proxy      | passwall代理软件        |
 | luci-theme-argone            | argone theme           | 修改老竭力主题名     |
 | luci-app-argone-config       | argone theme settings            |  argone主题设置      |
-| luci-app-ssr-plus            | ssr-plus proxy              | ssr-plus 代理软件       |
+| luci-app-ssr-plus            | ssr-plus ​​proxy              | ssr-plus 代理软件       |
 | luci-theme-mcat              | Modify topic name          |   mcat主题        |
 | luci-theme-tomato            | Modify topic name             |  tomato主题        |
 | luci-theme-design            | neobird theme          | neobird主题        |
