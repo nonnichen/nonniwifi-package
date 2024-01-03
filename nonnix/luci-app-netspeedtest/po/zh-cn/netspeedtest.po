@@ -1,0 +1,70 @@
+#
+# 2022 Support by Nonni <i@nonni.cn>
+# This is free software, licensed under the GNU General Public License v3.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LuCi Chinese Translation\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.6\n"
+
+msgid "Netspeedtest"
+msgstr "网速测试"
+
+msgid "Network speed diagnosis test (including intranet and extranet)"
+msgstr "网速诊断测试 [内网 外网]"
+
+msgid "iperf3 lanspeedtest"
+msgstr "iperf3 内网测速"
+
+msgid "Network speed diagnosis test (including intranet and extranet)<br/>For specific usage, see:"
+msgstr "网速诊断测试 [内网工具使用iperf3][外网工具使用speedtest.net]<br/> "
+
+
+msgid "iperfstart"
+msgstr "服务启动"
+
+msgid "iperfstop"
+msgstr "服务停止"
+
+msgid "Perform operation"
+msgstr "执行"
+
+msgid "iperf3 instructions"
+msgstr "iperf3 使用说明"
+
+msgid "Test speed service started"
+msgstr "测试速度服务已经启动"
+
+msgid "The speed measurement terminal must be in the same LAN as the router that starts the speed measurement"
+msgstr "1.测速机与启动测速服务的路由器必须在同一局域网内"
+
+msgid "Operation steps: start router speed measurement service download test client run speed measurement client input IP address of router speed measurement service"
+msgstr "2.步骤: 一.执行启动路由器测速服务 二.下载测试客户端 三.运行测速客户端 四.输入路由器IP地址。 "
+
+msgid "Domestic download password:"
+msgstr "网盘"
+
+msgid "Iperf3 speed measurement software download"
+msgstr "iperf3 软件下载"
+
+msgid "wanspeedtest"
+msgstr "宽带测试"
+
+msgid "Perform wanspeedtest"
+msgstr "执行宽带测速"
+
+msgid "Operation execution complete"
+msgstr "操作执行完毕"
+
+msgid "Network speed test, please wait for 1 minutes"
+msgstr "网速测试中，请稍等2分钟"
+
+msgid "Download from foreign official websites"
+msgstr "官网"
+

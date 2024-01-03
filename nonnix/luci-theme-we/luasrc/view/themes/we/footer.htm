@@ -1,0 +1,53 @@
+<%#
+ Copyright 2022 Nonni <i@nonni.cn>
+ Licensed to the public under the Apache License 2.0.
+-%>
+
+<%
+	local ver = require "luci.version"
+	local disp = require "luci.dispatcher"
+	local request  = disp.context.path
+	local category = request[1]
+	local tree = disp.node()
+	local categories = disp.node_childs(tree)
+%>
+   <footer>
+	🌈 春风骀荡 蓦然吹去 | 🌸 Support by <a href="https://nonni.cn">Nonni</a> 
+    <% if #categories > 1 then %>
+     <ul class="breadcrumb pull-right" id="modemenu">
+	    <% for i, r in ipairs(categories) do %>
+		    <li<% if request[1] == r then %> class="active"<%end%>><a href="<%=controller%>/<%=r%>/"><%=striptags(translate(tree.nodes[r].title))%></a> <span class="divider">|</span></li>
+	    <% end %>
+     </ul>
+    <% end %>
+   </footer>
+   </div>
+  </div>
+ </body>
+<script>
+	window.onload = function(){
+		var content = document.getElementsByName("content");
+		var luci_username = document.getElementsByName("luci_username");
+		var luci_password = document.getElementsByName("luci_password");
+		if (content.length == 1 && luci_username.length == 1 && luci_password.length == 1) {
+			//需要登录
+			document.body.classList.add('node-main-login');
+			luci_username[0].parentElement.parentElement.classList.add('luci_username_div');
+			luci_username[0].parentElement.parentElement.children[0].style.display = "none";
+			luci_password[0].parentElement.parentElement.classList.add('luci_password_div');
+			luci_password[0].parentElement.parentElement.children[0].style.display = "none";
+			
+			var errorbox = document.getElementsByClassName("errorbox");
+			if (errorbox.length == 1) {
+				var tips = document.getElementsByClassName("cbi-map-descr");
+				if (tips.length == 1) {
+					tips[0].innerHTML = errorbox[0].innerHTML;
+					tips[0].classList.add('errorbox');
+					errorbox[0].style.display = "none";
+				}
+			}
+		}
+	}
+ </script>
+</html>
+

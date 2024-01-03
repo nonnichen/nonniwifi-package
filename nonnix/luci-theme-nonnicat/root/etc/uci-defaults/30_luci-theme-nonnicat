@@ -1,0 +1,8 @@
+#!/bin/sh
+uci batch <<-EOF
+	set luci.themes.NonniCAT=/luci-static/nonnicat
+	set luci.themes.NonniCAT_Red=/luci-static/nonnicat_red
+	set luci.themes.NonniCAT_Brown=/luci-static/nonnicat_brown
+	commit luci
+EOF
+exit 0

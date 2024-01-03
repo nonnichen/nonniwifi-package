@@ -1,0 +1,11 @@
+{
+    "luci-nonniwifi-config": {
+        "description": "Luci NonniWiFi theme config ",
+        "read": {
+            "uci": [ "nonniwifi" ]
+        },
+        "write": {
+            "uci": [ "nonniwifi" ]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: Nonni <https://nonni.cn>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+
+msgid "PowerOff"
+msgstr "关机"
+
+msgid "Shut down your router"
+msgstr "吹灯拔蜡"
+
+msgid "Perform PowerOff"
+msgstr "いく、いく~"
+
+msgid "Warning: There are unsaved changes that will get lost on shutting down!"
+msgstr "警告：未保存的配置改动在关机后都会丢失！"
+
+msgid "Waiting for device..."
+msgstr "桥豆麻袋 「ちょっと待って」..."
+
+msgid "Router is shutting down..."
+msgstr "ばかもの ~"

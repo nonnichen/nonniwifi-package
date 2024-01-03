@@ -1,0 +1,12 @@
+#!/bin/sh
+[ -f /www/luci-static/rui/icons/ethernet.png ] && mv -f /www/luci-static/rui/icons/ethernet.png /www/luci-static/resources/icons/ethernet.png
+[ -f /www/luci-static/rui/icons/ethernet_disabled.png ] && mv -f /www/luci-static/rui/icons/ethernet_disabled.png /www/luci-static/resources/icons/ethernet_disabled.png
+[ -f /www/luci-static/rui/icons/port_down.png ] && mv -f /www/luci-static/rui/icons/port_down.png /www/luci-static/resources/icons/port_down.png
+[ -f /www/luci-static/rui/icons/port_up.png ] && mv -f /www/luci-static/rui/icons/port_up.png /www/luci-static/resources/icons/port_up.png
+
+uci batch <<-EOF
+	set luci.themes.rui=/luci-static/rui
+	set luci.main.mediaurlbase=/luci-static/rui
+	commit luci
+EOF
+exit 0

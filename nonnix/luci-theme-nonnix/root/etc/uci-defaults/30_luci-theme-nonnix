@@ -1,0 +1,8 @@
+#!/bin/sh
+uci batch <<-EOF
+	set luci.themes.NonniX=/luci-static/nonnix
+	set luci.main.mediaurlbase=/luci-static/nonnix
+	commit luci
+EOF
+exit 0 
+# ↑↑↑ DO NOT EDIT THIS LINE
